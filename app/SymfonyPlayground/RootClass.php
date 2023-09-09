@@ -4,7 +4,7 @@ namespace App\SymfonyPlayground;
 
 use Symfony\Component\Serializer\Annotation\SerializedName;
 
-class RootClass
+class RootClass extends AbstractRootClass
 {
 
     #[SerializedName("leaf_property")]
